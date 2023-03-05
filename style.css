@@ -1,0 +1,276 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+.main{
+    margin-top: 130px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    width: 375px;
+    height: 53vh;
+
+}
+.head{
+    color: white;
+    font-size: 25px;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    margin-right: 140px;
+    margin-bottom: 5px;
+}
+.body{
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.star{
+    margin-top: 12px;
+    /* size: 10px; */
+}
+
+.stardiv{
+    /* margin-top: 180px; */
+    width: 35px;
+    height: 35px;
+    margin-right: 80% ;
+    /* height: 30px; */
+    background-color: #2C3740;
+    border-radius: 100%;
+    
+}
+.test{
+    padding-top: 30px;
+    padding-left: 12px;
+}
+
+.rating{
+    color: white;  
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.num:hover{
+    background-color: hsl(217, 12%, 63%);
+}
+.num{
+    color: hsl(217, 12%, 63%);  
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    border: none;
+    
+}
+.all{
+    width: 50px;
+    height: 50px;
+    background-color: #2C3740;
+    border-radius: 100%;
+    cursor: pointer;
+
+
+}
+.all:focus{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.all:hover{
+    color:white;
+}
+.submit{
+    /* margin-top: 20px; */
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(25, 97%, 53%);
+    width: 320px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.submit:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+.pressed{
+    background-color: blue;
+    color: blueviolet;
+}
+
+.main2{
+    margin-top: 0px ;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    width: 375px;
+    height: 53vh;
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+
+.optm{
+    margin-top: 35px;
+    width: 35%;
+    
+}
+.ratnum{
+    margin-top: 30px;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.matter{
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 500%;
+}
+
+.thanku{
+    color: white;
+    font-size: 30px; 
+    margin-bottom: 20px;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+}
+.color{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.ratnum{
+    color: hsl(25, 97%, 53%);
+    background-color: #2C3740;
+    font-size: 13px;
+    height: 30px;
+    width: 50%  ;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    border-radius: 20px;
+    font-weight: 100px;
+}
+.subpb{
+    position: relative;
+    top: 25%;
+}
+.dimen{
+    margin-top: 130px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    width: 375px;
+    height: 53vh;
+
+}
+
+@media screen and (max-width:375px) {
+    .main{
+
+        margin-left: 4px;
+        width: 340px;
+        height: 56vh;
+}
+    #order{
+        left: 10px;
+        right: 20px;
+        top: 133px;
+        width: 96%;
+    }
+    .head{
+        font-size: 20px;
+        margin-right: 39px;
+        position: relative;
+        right: 50px;
+        font-family: 'Overpass', sans-serif;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: bold;
+    }
+    .all{
+        border-radius: 100%;
+        
+    }
+    .body{
+        font-family: 'Overpass', sans-serif;
+        font-family: 'Red Hat Display', sans-serif;
+        margin-right: 20px;
+        margin-left: 25px;
+        font-size: 15px;
+        size: 50px;
+        height: 60px;
+
+    }
+
+    .stardiv{
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+    }
+    .star{
+            margin-top: 9px;
+            width: 12px;
+            height: 12px;
+    }
+    .all{
+            width: 40px;
+            height: 40px;
+            background-color: #2C3740;
+            border-radius: 100%;
+            cursor: pointer;
+    }
+    .all:focus{
+        background-color: hsl(25, 97%, 53%);
+        color: white;
+    }
+    .all:hover{
+        color:white;
+    }
+    .submit:hover{
+        color: hsl(25, 97%, 53%);
+        background-color: white;
+    }
+    .submit{
+        font-family: 'Overpass', sans-serif;
+        font-family: 'Red Hat Display', sans-serif;
+        background-color: hsl(25, 97%, 53%);
+        width: 280px;
+        height: 40px;
+
+    }
+
+    /* output */
+    .ratnum{
+        margin-top: 20px;
+        width: 40%;
+    }
+    .subpb{
+        font-size: 12px;
+    }
+    .thanku{
+        margin-top: 20px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .matter{
+        margin-top: 10px;
+    }
+}
+
+.newoutput{
+    position: absolute;
+    top: 18.4%;
+    left: 37.2%;
+}
